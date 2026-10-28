@@ -1,0 +1,13 @@
+{
+  "name": "nodejsapp",
+  "version": "1.0.0",
+  "description": "Node.js module exercises using built-in, local, and third-party modules.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "email": "node emailSender.js"
+  },
+  "dependencies": {
+    "nodemailer": "^7.10.0"
+  }
+}
